@@ -1,0 +1,8 @@
+.head {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 6px rgb(211, 209, 209);
+    /* box-shadow: 0 1px 4px rgba(0,21,41,.08); */
+    padding: 10px 15px;
+}

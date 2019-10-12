@@ -1,7 +1,7 @@
-import * as React from 'react'
+import React,{ useState } from 'react'
 function Home() {
     return (
-        <div></div>
+        <div>66666666</div>
     )
 }
 export default Home;

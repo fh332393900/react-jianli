@@ -1,7 +1,5 @@
 import React from 'react';
 import {HashRouter,Route,Switch} from 'react-router-dom';
-import Home from './Home';
-import App from './App';
 import router from './router/index'
 
 const BasicRoute = () => (
