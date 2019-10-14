@@ -8,7 +8,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.App-content {
+  min-height: 100vh;
+}
 .App-header {
   /* background-color: #282c34; */
   min-height: 50vh;

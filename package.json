@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@antv/data-set": "^0.10.2",
+    "@antv/g2": "^3.5.8",
     "antd": "^3.23.4",
     "axios": "^0.18.1",
+    "bizcharts": "^3.5.5",
     "cross-fetch": "^3.0.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

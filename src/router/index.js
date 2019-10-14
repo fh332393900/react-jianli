@@ -1,13 +1,14 @@
 import App from '../App';
-import Home from '../Home'
+import Home from '../views/Home/Home'
+import Person from '../views/Person/Person'
 const router = [
     {
         path:'/',
-        component: App
+        component: Home
     },
     {
-        path:'/home',
-        component: Home
+        path:'/person',
+        component:Person
     }
 ];
 export default router;

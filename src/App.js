@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import { BackTop } from 'antd';
 import Head from './layout/Head'
-import Home from './views/Home/Home'
+import Foot from './layout/Foot'
+import router from './router/index'
+import {HashRouter,Route,Switch} from 'react-router-dom';
 class App extends Component {
   render() {
     return (
@@ -10,11 +12,17 @@ class App extends Component {
         <BackTop />
         <Head></Head>
         <div className="App-content">
-          <Home></Home>
+          <HashRouter>
+              <Switch>
+                  {
+                    router.map((route, i) =>
+                      <Route exact key={i} path={route.path} component={route.component}/>
+                    )
+                  }
+              </Switch>
+          </HashRouter>
         </div>
-        <header className="App-header">
-          <p>Bonjour react</p>
-        </header>
+        <Foot></Foot>
       </div>
     );
   }

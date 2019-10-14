@@ -1,0 +1,19 @@
+.person {
+    padding: 20px;
+    background-image:url('https://desk-fd.zol-img.com.cn/g2/M00/0A/01/ChMlWlx48-aIEIY0ABCTV74UUeQAAIiVgIEkcAAEJNv835.jpg');
+    background-size: cover;
+    color: #f0f2f5;
+}
+.person-name {
+    margin-top: 5px;
+    font-size: calc(10px + 1vmin);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.person-basic {
+    text-align: left;
+    margin-top: 10px;
+}
+.person-tag {
+    text-align: left;
+}
